@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1211C0E616C56B0A003C7490 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1211C0E516C56B0A003C7490 /* UIKit.framework */; };
+		1211C0E816C56B0A003C7490 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1211C0E716C56B0A003C7490 /* Foundation.framework */; };
+		1211C0EA16C56B0A003C7490 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1211C0E916C56B0A003C7490 /* CoreGraphics.framework */; };
+		1211C0F016C56B0A003C7490 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1211C0EE16C56B0A003C7490 /* InfoPlist.strings */; };
+		1211C0F216C56B0A003C7490 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1211C0F116C56B0A003C7490 /* main.m */; };
+		1211C0F616C56B0A003C7490 /* MyDeviceLogAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1211C0F516C56B0A003C7490 /* MyDeviceLogAppAppDelegate.m */; };
+		1211C0F816C56B0A003C7490 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211C0F716C56B0A003C7490 /* Default.png */; };
+		1211C0FA16C56B0A003C7490 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211C0F916C56B0A003C7490 /* Default@2x.png */; };
+		1211C0FC16C56B0A003C7490 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1211C0FB16C56B0A003C7490 /* Default-568h@2x.png */; };
+		1211C0FF16C56B0A003C7490 /* MyDeviceLogAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1211C0FE16C56B0A003C7490 /* MyDeviceLogAppViewController.m */; };
+		1211C10216C56B0A003C7490 /* MyDeviceLogAppViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1211C10016C56B0A003C7490 /* MyDeviceLogAppViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1211C0E116C56B0A003C7490 /* MyDeviceLogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDeviceLogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1211C0E516C56B0A003C7490 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1211C0E716C56B0A003C7490 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1211C0E916C56B0A003C7490 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1211C0ED16C56B0A003C7490 /* MyDeviceLogApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyDeviceLogApp-Info.plist"; sourceTree = "<group>"; };
+		1211C0EF16C56B0A003C7490 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1211C0F116C56B0A003C7490 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1211C0F316C56B0A003C7490 /* MyDeviceLogApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyDeviceLogApp-Prefix.pch"; sourceTree = "<group>"; };
+		1211C0F416C56B0A003C7490 /* MyDeviceLogAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDeviceLogAppAppDelegate.h; sourceTree = "<group>"; };
+		1211C0F516C56B0A003C7490 /* MyDeviceLogAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDeviceLogAppAppDelegate.m; sourceTree = "<group>"; };
+		1211C0F716C56B0A003C7490 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1211C0F916C56B0A003C7490 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1211C0FB16C56B0A003C7490 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1211C0FD16C56B0A003C7490 /* MyDeviceLogAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyDeviceLogAppViewController.h; sourceTree = "<group>"; };
+		1211C0FE16C56B0A003C7490 /* MyDeviceLogAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDeviceLogAppViewController.m; sourceTree = "<group>"; };
+		1211C10116C56B0A003C7490 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyDeviceLogAppViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1211C0DE16C56B0A003C7490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211C0E616C56B0A003C7490 /* UIKit.framework in Frameworks */,
+				1211C0E816C56B0A003C7490 /* Foundation.framework in Frameworks */,
+				1211C0EA16C56B0A003C7490 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1211C0D616C56B09003C7490 = {
+			isa = PBXGroup;
+			children = (
+				1211C0EB16C56B0A003C7490 /* MyDeviceLogApp */,
+				1211C0E416C56B0A003C7490 /* Frameworks */,
+				1211C0E216C56B0A003C7490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1211C0E216C56B0A003C7490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1211C0E116C56B0A003C7490 /* MyDeviceLogApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1211C0E416C56B0A003C7490 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1211C0E516C56B0A003C7490 /* UIKit.framework */,
+				1211C0E716C56B0A003C7490 /* Foundation.framework */,
+				1211C0E916C56B0A003C7490 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1211C0EB16C56B0A003C7490 /* MyDeviceLogApp */ = {
+			isa = PBXGroup;
+			children = (
+				1211C0F416C56B0A003C7490 /* MyDeviceLogAppAppDelegate.h */,
+				1211C0F516C56B0A003C7490 /* MyDeviceLogAppAppDelegate.m */,
+				1211C0FD16C56B0A003C7490 /* MyDeviceLogAppViewController.h */,
+				1211C0FE16C56B0A003C7490 /* MyDeviceLogAppViewController.m */,
+				1211C10016C56B0A003C7490 /* MyDeviceLogAppViewController.xib */,
+				1211C0EC16C56B0A003C7490 /* Supporting Files */,
+			);
+			path = MyDeviceLogApp;
+			sourceTree = "<group>";
+		};
+		1211C0EC16C56B0A003C7490 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1211C0ED16C56B0A003C7490 /* MyDeviceLogApp-Info.plist */,
+				1211C0EE16C56B0A003C7490 /* InfoPlist.strings */,
+				1211C0F116C56B0A003C7490 /* main.m */,
+				1211C0F316C56B0A003C7490 /* MyDeviceLogApp-Prefix.pch */,
+				1211C0F716C56B0A003C7490 /* Default.png */,
+				1211C0F916C56B0A003C7490 /* Default@2x.png */,
+				1211C0FB16C56B0A003C7490 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1211C0E016C56B0A003C7490 /* MyDeviceLogApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1211C10516C56B0A003C7490 /* Build configuration list for PBXNativeTarget "MyDeviceLogApp" */;
+			buildPhases = (
+				1211C0DD16C56B0A003C7490 /* Sources */,
+				1211C0DE16C56B0A003C7490 /* Frameworks */,
+				1211C0DF16C56B0A003C7490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDeviceLogApp;
+			productName = MyDeviceLogApp;
+			productReference = 1211C0E116C56B0A003C7490 /* MyDeviceLogApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1211C0D816C56B09003C7490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyDeviceLogApp;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 1211C0DB16C56B09003C7490 /* Build configuration list for PBXProject "MyDeviceLogApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1211C0D616C56B09003C7490;
+			productRefGroup = 1211C0E216C56B0A003C7490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1211C0E016C56B0A003C7490 /* MyDeviceLogApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1211C0DF16C56B0A003C7490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211C0F016C56B0A003C7490 /* InfoPlist.strings in Resources */,
+				1211C0F816C56B0A003C7490 /* Default.png in Resources */,
+				1211C0FA16C56B0A003C7490 /* Default@2x.png in Resources */,
+				1211C0FC16C56B0A003C7490 /* Default-568h@2x.png in Resources */,
+				1211C10216C56B0A003C7490 /* MyDeviceLogAppViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1211C0DD16C56B0A003C7490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1211C0F216C56B0A003C7490 /* main.m in Sources */,
+				1211C0F616C56B0A003C7490 /* MyDeviceLogAppAppDelegate.m in Sources */,
+				1211C0FF16C56B0A003C7490 /* MyDeviceLogAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1211C0EE16C56B0A003C7490 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1211C0EF16C56B0A003C7490 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1211C10016C56B0A003C7490 /* MyDeviceLogAppViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1211C10116C56B0A003C7490 /* en */,
+			);
+			name = MyDeviceLogAppViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1211C10316C56B0A003C7490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1211C10416C56B0A003C7490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1211C10616C56B0A003C7490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDeviceLogApp/MyDeviceLogApp-Prefix.pch";
+				INFOPLIST_FILE = "MyDeviceLogApp/MyDeviceLogApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1211C10716C56B0A003C7490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyDeviceLogApp/MyDeviceLogApp-Prefix.pch";
+				INFOPLIST_FILE = "MyDeviceLogApp/MyDeviceLogApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1211C0DB16C56B09003C7490 /* Build configuration list for PBXProject "MyDeviceLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211C10316C56B0A003C7490 /* Debug */,
+				1211C10416C56B0A003C7490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1211C10516C56B0A003C7490 /* Build configuration list for PBXNativeTarget "MyDeviceLogApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1211C10616C56B0A003C7490 /* Debug */,
+				1211C10716C56B0A003C7490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1211C0D816C56B09003C7490 /* Project object */;
+}
