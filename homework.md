@@ -3,7 +3,7 @@ MyDeviceLogApp
 
 Week 4
 
-<object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/jjGgmWezYgk&hl=en_US&feature=player_embedded&version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowScriptAccess" value="always"></param><embed src="http://www.youtube.com/v/jjGgmWezYgk&hl=en_US&feature=player_embedded&version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="640" height="360"></embed></object>
+Podcast: http://youtube.googleapis.com/v/jjGgmWezYgk
 
 <img src="https://www.evernote.com/shard/s71/sh/5cffde91-08c8-401d-aff5-906c9c627dc3/df924ea29bd9380fe2e9c80f4d3023b5/deep/0/Screenshot%202/8/13%2010:57%20AM.jpg" alt="Screenshot%202/8/13%2010:57%20AM" />
 
